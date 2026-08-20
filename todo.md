@@ -1,0 +1,4 @@
+- [x] Inspect the current hero image reference and locate the approved preview asset.
+- [x] Add the hero visual to a local Vite-compatible asset directory.
+- [x] Replace the external hero image path with the bundled local path without altering the design.
+- [x] Build and visually verify the hero visual, image paths, and exported-project compatibility.
