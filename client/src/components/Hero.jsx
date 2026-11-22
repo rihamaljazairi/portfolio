@@ -32,14 +32,12 @@ export default function Hero() {
             </a>
             <a
               className="button button-secondary"
-              href="https://vercel.app"
-              target="_blank"
-              rel="noreferrer"
+              href="/Riham_Aljazairi_CV.pdf"
               download="Riham_Aljazairi_CV.pdf"
             >
               <Download size={17} aria-hidden="true" /> Download CV
             </a>
-            <a className="button button-secondary" href="https://github.com" target="_blank" rel="noreferrer">
+            <a className="button button-secondary" href="https://github.com/rihamaljazairi" target="_blank" rel="noreferrer">
               <Github size={17} aria-hidden="true" /> GitHub <ArrowUpRight size={15} aria-hidden="true" />
             </a>
           </div>
