@@ -32,8 +32,8 @@ export default function Projects() {
           imageAlt="HealthVerify AI healthcare staff verification system architecture and interface"
           tech={["React", "Flutter", "Python", "Flask", "Firebase", "REST APIs", "SQL", "Tesseract OCR", "DeepFace"]}
           features={healthVerifyFeatures}
-          github="https://://github.com"
-          demo="https://://google.com"
+          github="https://github.com/rihamaljazairi/healthverify"
+          demo="https://drive.google.com/file/d/1oM-cI2Q1P7Wj2BB-lzAJBEq71EvMsXlU/view?usp=sharing"
           status="Final Year Project"
           category="Full-stack · AI · Healthcare"
         />
