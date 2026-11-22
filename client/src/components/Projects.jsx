@@ -33,7 +33,7 @@ export default function Projects() {
           tech={["React", "Flutter", "Python", "Flask", "Firebase", "REST APIs", "SQL", "Tesseract OCR", "DeepFace"]}
           features={healthVerifyFeatures}
           github="https://github.com"
-          demo="/assets/healthverify-demo.mp4"
+          demo="https://google.com"
           status="Final Year Project"
           category="Full-stack · AI · Healthcare"
         />
