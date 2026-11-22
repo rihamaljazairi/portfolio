@@ -1,7 +1,7 @@
 /**
- * Signal & Structure: asymmetric opening with real positioning, live tech badge, and a generated systems visual.
+ * Signal & Structure: asymmetric opening with real positioning, personal profile photo, and a generated systems visual.
  */
-import { ArrowDownRight, ArrowUpRight, Download, Github, MapPin, Terminal } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, Download, Github, MapPin } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -37,7 +37,7 @@ export default function Hero() {
             >
               <Download size={17} aria-hidden="true" /> Download CV
             </a>
-            <a className="button button-secondary" href="https://github.com/rihamaljazairi" target="_blank" rel="noreferrer">
+            <a className="button button-secondary" href="https://github.com" target="_blank" rel="noreferrer">
               <Github size={17} aria-hidden="true" /> GitHub <ArrowUpRight size={15} aria-hidden="true" />
             </a>
           </div>
@@ -48,16 +48,28 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hero-visual reveal" aria-label="Abstract developer systems visual">
+        <div className="hero-visual reveal" aria-label="Developer profile and systems visual">
           <img className="hero-visual-image" src="/assets/riham-hero-systems.webp" alt="Abstract developer workstation with web, mobile, and AI system layers" />
           <div className="visual-corner visual-corner-top" aria-hidden="true" />
           <div className="visual-corner visual-corner-bottom" aria-hidden="true" />
           <div className="profile-placeholder">
-            <div className="placeholder-orb" aria-hidden="true"><Terminal size={18} /></div>
+            <img
+              src="/assets/riham-profile.jpg"
+              alt="Riham Mohammad Al Jazairi"
+              style={{
+                width: "3.25rem",
+                height: "3.25rem",
+                borderRadius: "50%",
+                objectFit: "cover",
+                objectPosition: "center 20%",
+                border: "2px solid var(--cyan)",
+                flexShrink: 0,
+              }}
+            />
             <div>
-              <span className="tiny-label">Core Stack</span>
-              <strong>React · Flutter · Python</strong>
-              <p>Computer Science Graduate — IUL</p>
+              <span className="tiny-label">Full-Stack Developer</span>
+              <strong>Riham Al Jazairi</strong>
+              <p>React · Flutter · Python · AI</p>
             </div>
           </div>
           <div className="visual-caption">

@@ -1,5 +1,5 @@
 /**
- * Signal & Structure: featured project evidence with a large authored case-study stage and honest future-work state.
+ * Signal & Structure: featured project evidence with a large authored case-study stage and live demo video link.
  */
 import ProjectCard from "./ProjectCard";
 import SectionHeader from "./SectionHeader";
@@ -33,7 +33,7 @@ export default function Projects() {
           tech={["React", "Flutter", "Python", "Flask", "Firebase", "REST APIs", "SQL", "Tesseract OCR", "DeepFace"]}
           features={healthVerifyFeatures}
           github="https://github.com"
-          demo="https://github.com#screenshots"
+          demo="/assets/healthverify-demo.mp4"
           status="Final Year Project"
           category="Full-stack · AI · Healthcare"
         />
