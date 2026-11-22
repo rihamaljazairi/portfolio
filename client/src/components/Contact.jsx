@@ -18,11 +18,11 @@ export default function Contact() {
           <a href="mailto:rihamaljazairi@gmail.com" className="contact-link" aria-label="Send email to Riham Aljazairi">
             <Mail size={19} aria-hidden="true" /><span><small>Email</small><strong>rihamaljazairi@gmail.com</strong></span><ArrowUpRight size={17} aria-hidden="true" />
           </a>
-          <a href="https://github.com/rihamaljazairi" className="contact-link" target="_blank" rel="noreferrer">
-            <Github size={19} aria-hidden="true" /><span><small>GitHub</small><strong>github.com/rihamaljazairi</strong></span><ArrowUpRight size={17} aria-hidden="true" />
+          <a href="https://github.com" className="contact-link" target="_blank" rel="noreferrer">
+            <Github size={19} aria-hidden="true" /><span><small>GitHub</small><strong>://github.com</strong></span><ArrowUpRight size={17} aria-hidden="true" />
           </a>
-          <a href="https://www.linkedin.com/in/riham-aljazairi/" className="contact-link" target="_blank" rel="noreferrer">
-            <Linkedin size={19} aria-hidden="true" /><span><small>LinkedIn</small><strong>linkedin.com/in/riham-aljazairi</strong></span><ArrowUpRight size={17} aria-hidden="true" />
+          <a href="https://linkedin.com" className="contact-link" target="_blank" rel="noreferrer">
+            <Linkedin size={19} aria-hidden="true" /><span><small>LinkedIn</small><strong>://linkedin.com</strong></span><ArrowUpRight size={17} aria-hidden="true" />
           </a>
         </div>
       </div>
