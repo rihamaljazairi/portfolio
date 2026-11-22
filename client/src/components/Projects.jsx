@@ -5,15 +5,14 @@ import ProjectCard from "./ProjectCard";
 import SectionHeader from "./SectionHeader";
 
 const healthVerifyFeatures = [
-  "AI face verification",
-  "Document OCR verification",
-  "Healthcare staff registration",
-  "Admin dashboard",
-  "Pending verification workflow",
-  "Approval and rejection workflow",
-  "QR-based public verification",
-  "Firebase Authentication & Firestore",
-  "REST API integration",
+  "AI face comparison & verification (DeepFace & Flask)",
+  "Automated document text extraction (Tesseract OCR)",
+  "Healthcare staff mobile registration (Flutter)",
+  "Real-time Admin verification dashboard (React)",
+  "Pending, approval, and rejection workflows",
+  "QR-based public credential verification",
+  "Firebase Authentication & Cloud Firestore",
+  "RESTful API architecture",
 ];
 
 export default function Projects() {
@@ -22,30 +21,30 @@ export default function Projects() {
       <SectionHeader number="04" label="Selected work" title="Projects built around real verification and workflow needs." intro="A focused selection of development work, led by an AI-enabled final-year project." />
       <div className="project-callout reveal">
         <span className="callout-tag">Featured case study</span>
-        <p>HealthVerify connects a dashboard, mobile application, AI services, and Firebase workflows in one verification system.</p>
+        <p>HealthVerify connects a React dashboard, Flutter mobile app, Python/Flask AI services, and Firebase workflows in one end-to-end verification system.</p>
       </div>
       <div className="projects-stack">
         <ProjectCard
           title="HealthVerify"
           subtitle="AI Healthcare Staff Verification System"
-          description="HealthVerify is a full-stack healthcare staff verification system designed to assist administrators in verifying healthcare professionals. The system combines AI-based face verification, document OCR, a React administration dashboard, a Flutter mobile application, a Flask AI backend, and Firebase services."
+          description="HealthVerify is a full-stack healthcare staff verification system built to streamline credential auditing. It uses Python and Flask to run Tesseract OCR for full document text extraction and AI facial comparison, paired with a React admin dashboard, a Flutter mobile app, and Firebase real-time services."
           image="/assets/healthverify-project-stage.webp"
-          imageAlt="Abstract software system illustration for healthcare staff verification"
-          tech={["React", "Flutter", "Python", "Flask", "Firebase", "DeepFace", "Tesseract OCR"]}
+          imageAlt="HealthVerify AI healthcare staff verification system architecture and interface"
+          tech={["React", "Flutter", "Python", "Flask", "Firebase", "REST APIs", "SQL", "Tesseract OCR", "DeepFace"]}
           features={healthVerifyFeatures}
           github="https://github.com/rihamaljazairi/healthverify"
-          demo="#demo"
+          demo="https://github.com"
           status="Final Year Project"
           category="Full-stack · AI · Healthcare"
         />
         <ProjectCard
           title="JobTrack AI"
           subtitle="AI-Powered Job Tracking Platform"
-          description="A future project concept. Implementation details, screenshots, and features will be added when they are ready to share."
+          description="Currently in development: an intelligent application tracker designed to organize job submissions, analyze role requirements, and track interview pipelines."
           image="/assets/jobtrack-coming-soon.webp"
-          imageAlt="Abstract project placeholder visual for a future AI-powered job tracking platform"
-          status="To Be Added"
-          category="Future project"
+          imageAlt="JobTrack AI project preview visual"
+          status="In Progress"
+          category="Upcoming project"
           comingSoon
         />
       </div>

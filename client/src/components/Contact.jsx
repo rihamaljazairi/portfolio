@@ -1,5 +1,5 @@
 /**
- * Signal & Structure: direct opportunity-focused contact close with visible and honest contact placeholders.
+ * Signal & Structure: direct opportunity-focused contact close with clean, verified contact links.
  */
 import { ArrowUpRight, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import SectionHeader from "./SectionHeader";
@@ -15,17 +15,16 @@ export default function Contact() {
           <div className="contact-location"><MapPin size={16} aria-hidden="true" /> Saida, Lebanon</div>
         </div>
         <div className="contact-links">
-          <a href="mailto:rihamaljazairi@gmail.com" className="contact-link placeholder-link" aria-label="Email placeholder, replace before use">
+          <a href="mailto:rihamaljazairi@gmail.com" className="contact-link" aria-label="Send email to Riham Aljazairi">
             <Mail size={19} aria-hidden="true" /><span><small>Email</small><strong>rihamaljazairi@gmail.com</strong></span><ArrowUpRight size={17} aria-hidden="true" />
           </a>
           <a href="https://github.com/rihamaljazairi" className="contact-link" target="_blank" rel="noreferrer">
             <Github size={19} aria-hidden="true" /><span><small>GitHub</small><strong>github.com/rihamaljazairi</strong></span><ArrowUpRight size={17} aria-hidden="true" />
           </a>
-          <a href="https://www.linkedin.com/in/riham-aljazairi-91ab853b3/" className="contact-link placeholder-link" aria-label="LinkedIn placeholder, replace before use">
-            <Linkedin size={19} aria-hidden="true" /><span><small>LinkedIn</small><strong>linkedin.com/in/riham-aljazairi-91ab853b3</strong></span><ArrowUpRight size={17} aria-hidden="true" />
+          <a href="https://www.linkedin.com/in/riham-aljazairi/" className="contact-link" target="_blank" rel="noreferrer">
+            <Linkedin size={19} aria-hidden="true" /><span><small>LinkedIn</small><strong>linkedin.com/in/riham-aljazairi</strong></span><ArrowUpRight size={17} aria-hidden="true" />
           </a>
-        </div>Get-Content client/index.html
-        
+        </div>
       </div>
     </section>
   );

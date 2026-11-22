@@ -1,7 +1,7 @@
 /**
- * Signal & Structure: asymmetric opening with real positioning, a photo placeholder, and a generated systems visual.
+ * Signal & Structure: asymmetric opening with real positioning, live tech badge, and a generated systems visual.
  */
-import { ArrowDownRight, ArrowUpRight, Github, MapPin } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, Download, Github, MapPin, Terminal } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -30,10 +30,12 @@ export default function Hero() {
             <a className="button button-primary" href="#projects">
               View Projects <ArrowDownRight size={18} aria-hidden="true" />
             </a>
+            <a className="button button-secondary" href="/Riham_Aljazairi_CV.pdf" download="Riham_Aljazairi_CV.pdf">
+              <Download size={17} aria-hidden="true" /> Download CV
+            </a>
             <a className="button button-secondary" href="https://github.com/rihamaljazairi" target="_blank" rel="noreferrer">
               <Github size={17} aria-hidden="true" /> GitHub <ArrowUpRight size={15} aria-hidden="true" />
             </a>
-            <a className="text-action" href="#contact">Contact Me</a>
           </div>
           <div className="hero-footnote">
             <span>Full-stack development</span>
@@ -47,11 +49,11 @@ export default function Hero() {
           <div className="visual-corner visual-corner-top" aria-hidden="true" />
           <div className="visual-corner visual-corner-bottom" aria-hidden="true" />
           <div className="profile-placeholder">
-            <div className="placeholder-orb" aria-hidden="true"><span /></div>
+            <div className="placeholder-orb" aria-hidden="true"><Terminal size={18} /></div>
             <div>
-              <span className="tiny-label">Professional photo</span>
-              <strong>Placeholder</strong>
-              <p>Add a professional headshot here.</p>
+              <span className="tiny-label">Core Stack</span>
+              <strong>React · Flutter · Python</strong>
+              <p>Computer Science Graduate — IUL</p>
             </div>
           </div>
           <div className="visual-caption">
