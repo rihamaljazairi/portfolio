@@ -50,8 +50,12 @@ export default function ProjectCard({
         )}
         {!comingSoon && (
           <div className="project-actions">
-            <a className="project-link primary" href={github} target="_blank" rel="noreferrer"><Github size={16} aria-hidden="true" /> View on GitHub <ArrowUpRight size={15} aria-hidden="true" /></a>
-            <a className="project-link" href={demo}><MonitorPlay size={16} aria-hidden="true" /> Live Demo <span className="link-note">Placeholder</span></a>
+            <a className="project-link primary" href={github} target="_blank" rel="noreferrer">
+              <Github size={16} aria-hidden="true" /> View on GitHub <ArrowUpRight size={15} aria-hidden="true" />
+            </a>
+            <a className="project-link" href={demo} target="_blank" rel="noreferrer">
+              <MonitorPlay size={16} aria-hidden="true" /> Live Demo <ArrowUpRight size={15} aria-hidden="true" />
+            </a>
           </div>
         )}
       </div>
