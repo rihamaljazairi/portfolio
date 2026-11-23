@@ -34,6 +34,8 @@ export default function Projects() {
       </div>
       <div className="projects-stack">
         <ProjectCard
+          index="01"
+          stageLabels={["React admin", "Flutter mobile", "Flask API", "Firebase"]}
           title="HealthVerify"
           subtitle="AI Healthcare Staff Verification System"
           description="HealthVerify is a full-stack healthcare staff verification system built to streamline credential auditing. It uses Python and Flask to run Tesseract OCR for full document text extraction and AI facial comparison, paired with a React admin dashboard, a Flutter mobile app, and Firebase real-time services."
@@ -41,12 +43,14 @@ export default function Projects() {
           imageAlt="HealthVerify AI healthcare staff verification system architecture and interface"
           tech={["React", "Flutter", "Python", "Flask", "Firebase", "REST APIs", "SQL", "Tesseract OCR", "DeepFace"]}
           features={healthVerifyFeatures}
-          github="https://github.com"
-          demo="https://google.com"
+          github="https://github.com/rihamaljazairi/businessflow-erp"
+          demo="https://drive.google.com/file/d/1oM-cI2Q1P7Wj2BB-lzAJBEq71EvMsXlU/view?usp=sharing"
           status="Final Year Project"
           category="Full-stack · AI · Healthcare"
         />
         <ProjectCard
+          index="02"
+          stageLabels={["React UI", "Express API", "PostgreSQL", "JWT & RBAC"]}
           title="BusinessFlow ERP"
           subtitle="Enterprise Resource Planning & Inventory Platform"
           description="BusinessFlow ERP is a full-stack business management system engineered to streamline B2B sales, order fulfillment, invoicing, and inventory control. Built with React, Node.js, Express, and PostgreSQL, it enforces JWT security, role-based access control, rate limiting, and real-time executive analytics."
@@ -54,8 +58,8 @@ export default function Projects() {
           imageAlt="BusinessFlow ERP executive dashboard showing revenue charts, KPIs, and inventory alerts"
           tech={["React", "Node.js", "Express", "PostgreSQL", "JWT", "RBAC", "Recharts", "REST APIs"]}
           features={businessFlowFeatures}
-          github="https://github.com"
-          demo="https://github.com#quick-start"
+          github="https://github.com/rihamaljazairi/businessflow-erp"
+          demo="https://github.com/rihamaljazairi/businessflow-erp#quick-start"
           status="Completed"
           category="Full-stack · ERP · PostgreSQL"
         />
