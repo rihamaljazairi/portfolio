@@ -1,5 +1,5 @@
 /**
- * Signal & Structure: featured project evidence with a large authored case-study stage and live demo video link.
+ * Signal & Structure: featured project evidence with authored case-study stages and live links.
  */
 import ProjectCard from "./ProjectCard";
 import SectionHeader from "./SectionHeader";
@@ -15,10 +15,19 @@ const healthVerifyFeatures = [
   "RESTful API architecture",
 ];
 
+const businessFlowFeatures = [
+  "JWT authentication & Role-Based Access Control (RBAC)",
+  "Executive dashboard with Recharts revenue analytics",
+  "Automated low-stock inventory alerts & SKU tracking",
+  "End-to-end B2B order & multi-method payment lifecycle",
+  "Automated invoice generation with tax & status tracking",
+  "Admin-protected HR directory & system audit trail",
+];
+
 export default function Projects() {
   return (
     <section id="projects" className="content-section projects-section section-anchor" aria-labelledby="projects-title">
-      <SectionHeader number="04" label="Selected work" title="Projects built around real verification and workflow needs." intro="A focused selection of development work, led by an AI-enabled final-year project." />
+      <SectionHeader number="04" label="Selected work" title="Projects built around real verification and workflow needs." intro="A focused selection of full-stack development work, combining AI verification and enterprise business management." />
       <div className="project-callout reveal">
         <span className="callout-tag">Featured case study</span>
         <p>HealthVerify connects a React dashboard, Flutter mobile app, Python/Flask AI services, and Firebase workflows in one end-to-end verification system.</p>
@@ -32,22 +41,26 @@ export default function Projects() {
           imageAlt="HealthVerify AI healthcare staff verification system architecture and interface"
           tech={["React", "Flutter", "Python", "Flask", "Firebase", "REST APIs", "SQL", "Tesseract OCR", "DeepFace"]}
           features={healthVerifyFeatures}
-          github="https://github.com/rihamaljazairi/healthverify"
-          demo="https://drive.google.com/file/d/1oM-cI2Q1P7Wj2BB-lzAJBEq71EvMsXlU/view?usp=sharing"
+          github="https://github.com"
+          demo="https://google.com"
           status="Final Year Project"
           category="Full-stack · AI · Healthcare"
         />
         <ProjectCard
-          title="JobTrack AI"
-          subtitle="AI-Powered Job Tracking Platform"
-          description="Currently in development: an intelligent application tracker designed to organize job submissions, analyze role requirements, and track interview pipelines."
-          image="/assets/jobtrack-coming-soon.webp"
-          imageAlt="JobTrack AI project preview visual"
-          status="In Progress"
-          category="Upcoming project"
-          comingSoon
+          title="BusinessFlow ERP"
+          subtitle="Enterprise Resource Planning & Inventory Platform"
+          description="BusinessFlow ERP is a full-stack business management system engineered to streamline B2B sales, order fulfillment, invoicing, and inventory control. Built with React, Node.js, Express, and PostgreSQL, it enforces JWT security, role-based access control, rate limiting, and real-time executive analytics."
+          image="/assets/businessflow-erp-stage.png"
+          imageAlt="BusinessFlow ERP executive dashboard showing revenue charts, KPIs, and inventory alerts"
+          tech={["React", "Node.js", "Express", "PostgreSQL", "JWT", "RBAC", "Recharts", "REST APIs"]}
+          features={businessFlowFeatures}
+          github="https://github.com"
+          demo="https://github.com#quick-start"
+          status="Completed"
+          category="Full-stack · ERP · PostgreSQL"
         />
       </div>
     </section>
   );
 }
+
